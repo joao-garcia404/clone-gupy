@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Footer } from './components/Footer';
+import { Guide } from './components/Guide';
+import { Header } from './components/Header';
+import { Home } from './components/Home';
+import { Interview } from './components/Interview';
+import { Invest } from './components/Invest';
+import { Steps } from './components/Steps';
+import { StepsTwo } from './components/StepsTwo';
+import { GlobalStyle } from './styles/global';
 
-function App() {
+export function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyle />
+      <Header />
+      <Home />
+      <Guide />
+      <Steps />
+      <StepsTwo />
+      <Invest />
+      <Interview />
+      <Footer /> 
+    </>
   );
 }
-
-export default App;
