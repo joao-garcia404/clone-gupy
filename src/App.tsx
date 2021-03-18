@@ -19,7 +19,7 @@ export function App() {
       <StepsTwo />
       <Invest />
       <Interview />
-      <Footer /> 
+      <Footer />
     </>
   );
 }

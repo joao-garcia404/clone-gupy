@@ -11,20 +11,20 @@ export function Header() {
         <img src={connectabilImg} alt="Gupy"/>
 
         <nav>
-          <a href="#">
+          <a href="/">
             Produtos & Soluções
             <FiChevronDown />
           </a>
-          <a href="#">Planos</a>
-          <a href="#">
+          <a href="/">Planos</a>
+          <a href="/">
             A Gupy
             <FiChevronDown />
           </a>
-          <a href="#">
+          <a href="/">
             Conteúdos para RH
             <FiChevronDown />
           </a>
-          <a href="#" className="login">Login</a>
+          <a href="/" className="login">Login</a>
 
           <button type="button">Agende uma <br /> demonstração</button>
         </nav>
